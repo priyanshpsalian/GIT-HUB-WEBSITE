@@ -1,0 +1,56 @@
+@media screen and (max-width: 1015px) {
+    .search {
+        margin: 0 1vw 0 7vw;
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        display: none;
+    }
+    .menu div {
+        display: block;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    .logo {
+        margin-top: -3px;
+        height: 50px;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+        height: 664px;
+    }
+    .hbold {
+        width: 422px;
+    }
+    .container {
+        padding: 0 0;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form {
+        margin-top: 15px;
+        width: 370px;
+        height: 360px;
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+    }
+    .para {
+        text-align: center;
+        width: 79vw;
+    }
+    .input {
+        width: 359px;
+        padding-left: 8px;
+    }
+    .submit {
+        width: 365px;
+    }
+    .fbold {
+        line-height: 1.1;
+    }
+}

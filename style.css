@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Saira+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+}
+
+.logo img {
+    height: 40px;
+    padding-top: 4px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 8px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    margin: 0 1vw 0 7vw;
+}
+
+.search input {
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    border: solid black;
+    margin: 0 0 0 11px;
+    padding: 0px 8px;
+    background-color: #322e3e;
+    color: #ffffffba;
+}
+
+.sign li {
+    width: 64px;
+}
+
+.menu div {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    margin-right: 27px;
+    display: none;
+}
+
+.or {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #ffffff82;
+    margin-left: -11px;
+    margin-right: -4px;
+}
+
+main {
+    display: flex;
+    height: 460px;
+    background-image: url("dark.jpg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+}
+
+.container {
+    font-family: 'Open Sans condensed', sans-serif;
+    color: white;
+    padding: 100px 100px 100px 0px;
+}
+
+.para {
+    font-family: 'Hind Siliguri', sans-serif;
+    width: 395px;
+    font-size: larger;
+    font-weight: 300;
+    padding: 14px 0;
+}
+
+.form {
+    height: 325px;
+    background-color: white;
+    border-radius: 2px;
+    width: 303px;
+    padding: 13px 16px 15px 17px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 60px 0;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input {
+    width: 295px;
+    height: 31px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border: 1px solid rgb(200, 200, 200);
+    margin-bottom: 9px;
+}
+
+.submit {
+    width: 300px;
+    height: 39px;
+    border-radius: 8px;
+    background-color: #00B74B;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    margin-top: 12px;
+}
+
+.footer {
+    height: 270px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hbold {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: xxx-large;
+    margin-top: -10px;
+    width: 421.233px;
+    line-height: 1.1;
+}
+
+.fbold {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: xxx-large;
+}
+
+.fsubmit {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 64, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    border: 1px solid rgb(213, 213, 213);
+    margin-bottom: 19px;
+    margin-top: 10px;
+}
+
+.f1 {
+    margin-top: 41px;
+    margin-bottom: -34px;
+}
+
+.margin {
+    margin-top: 15px;
+    margin-bottom: -17px;
+}
+
+.phonesubmit {
+    display: none;
+}
